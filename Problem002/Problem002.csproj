@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F44B0624-8F58-4374-AA4F-18C21498B46C}</ProjectGuid>
+    <ProjectGuid>{E6921DC0-78A6-40EF-99D2-11284F6458FE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Problem001</RootNamespace>
-    <AssemblyName>Problem001</AssemblyName>
+    <RootNamespace>Problem002</RootNamespace>
+    <AssemblyName>Problem002</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,7 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Problem001.cs" />
+    <Compile Include="Problem002.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
