@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Problem002
 {
-    public class Problem002
+    public class Code
     {
         public static int Execute()
         {
-            var sum = 2;// starts at 2 to account for the initial value of num2
+            var sum = 2; // starts at 2 to account for the initial value of num2
             var num1 = 1;
             var num2 = 2;
             var useNum1 = true; // determines what number to update

@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Problem001
+﻿namespace Problem001
 {
-    public class Problem001
+    public class Code
     {
         public static int Execute()
         {

@@ -9,7 +9,7 @@ namespace Problem002Tests
         [TestMethod]
         public void TestProblem002()
         {
-            Assert.AreEqual(4613732,Problem002.Problem002.Execute());
+            Assert.AreEqual(4613732,Problem002.Code.Execute());
         }
     }
 }
