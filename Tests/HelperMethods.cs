@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Tests
 {
     public static class HelperMethods
     {
         public static bool Equals<T>(this IEnumerable<T> list1, IEnumerable<T> list2)
-            where T: IComparable
+            where T : IComparable
         {
             if (!(list1 != null && list2 != null)) return false;
             if (list1.Count() != list2.Count()) return false;

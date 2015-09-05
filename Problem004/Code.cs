@@ -9,11 +9,11 @@ namespace Problem004
             long result = 0;
             var maxValue = Convert.ToInt64(Math.Pow(10, digitsPerNumber));
             var startValue = Convert.ToInt64(Math.Pow(10, digitsPerNumber - 1));
-            for (long i = startValue; i < maxValue; i++)
+            for (var i = startValue; i < maxValue; i++)
             {
-                for (long j = i; j < maxValue; j++)
+                for (var j = i; j < maxValue; j++)
                 {
-                    if (IsPalinDrome(i*j) && result < i *j)
+                    if (IsPalinDrome(i*j) && result < i*j)
                     {
                         result = i*j;
                     }
