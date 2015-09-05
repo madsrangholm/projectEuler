@@ -7,7 +7,7 @@ namespace Tests._0xx._004
     public class Problem004Tests
     {
         [TestMethod, TestCategory("Assumption")]
-        public void _004TestLargesPalindrome2()
+        public void _004LargestPalindrome2()
         {
             var expectedResult = 9009;
             var result = Code.LargestPalindrome(2);
