@@ -56,6 +56,7 @@
     <Compile Include="0xx\001\Problem001Tests.cs" />
     <Compile Include="0xx\002\Problem002Tests.cs" />
     <Compile Include="0xx\003\Problem003Tests.cs" />
+    <Compile Include="0xx\005\Problem005Tests.cs" />
     <Compile Include="0xx\004\Problem004Tests.cs" />
     <Compile Include="HelperMethods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,6 +78,13 @@
       <Project>{c70337c0-0e4a-46a2-8e20-49ff002814e0}</Project>
       <Name>Problem004</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Problem005\Problem005.csproj">
+      <Project>{b01666ae-832a-49b1-94ab-954f06b0da01}</Project>
+      <Name>Problem005</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
