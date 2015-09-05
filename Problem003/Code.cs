@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Problem003
 {
@@ -22,7 +19,7 @@ namespace Problem003
                     {
                         result.Add(i);
                         remainder = remainder/i;
-                        notDone = 1 < remainder;                                             
+                        notDone = 1 < remainder;
                         break;
                     }
                 }
