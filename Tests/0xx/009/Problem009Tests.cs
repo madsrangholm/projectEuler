@@ -7,7 +7,7 @@ namespace Tests._0xx._009
     public class Problem009Tests
     {
         [TestMethod, TestCategory("Assumption")]
-        public void _008PytagorianTriplet3_4_5()
+        public void _009PytagorianTriplet3_4_5()
         {
             var expectedResult = 60;
             var result = Code.PytagorianTripletProduct(12);
