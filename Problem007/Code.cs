@@ -20,7 +20,7 @@ namespace Problem007
             return number;
         }
 
-        private static bool IsPrime(long num)
+        public static bool IsPrime(long num)
         {
             var numSquared = Convert.ToInt64(Math.Sqrt(num));
             for (var i = 2; i <= numSquared; i++)

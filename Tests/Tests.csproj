@@ -56,6 +56,7 @@
     <Compile Include="0xx\001\Problem001Tests.cs" />
     <Compile Include="0xx\002\Problem002Tests.cs" />
     <Compile Include="0xx\003\Problem003Tests.cs" />
+    <Compile Include="0xx\010\Problem010Tests.cs" />
     <Compile Include="0xx\009\Problem009Tests.cs" />
     <Compile Include="0xx\008\Problem008Tests.cs" />
     <Compile Include="0xx\007\Problem007Tests.cs" />
@@ -101,6 +102,10 @@
     <ProjectReference Include="..\Problem009\Problem009.csproj">
       <Project>{58aed7d9-9048-4136-9941-5b4bffb9381d}</Project>
       <Name>Problem009</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Problem010\Problem010.csproj">
+      <Project>{9c809d26-fae3-48bd-b8cb-c0afbfbe04db}</Project>
+      <Name>Problem010</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
