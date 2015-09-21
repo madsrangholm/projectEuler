@@ -22,6 +22,7 @@ namespace Problem011
                     }
                 }
             }
+            return 0;
         }
 
         private static long PointMaximum(int[,] grid, int rowLength, int x, int y)
@@ -40,7 +41,7 @@ namespace Problem011
                     
                 }
             }
-            
+            return 0;
 
             //check right down
             //check down
