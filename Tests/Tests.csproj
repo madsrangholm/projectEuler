@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="0xx\001\Problem001Tests.cs" />
     <Compile Include="0xx\002\Problem002Tests.cs" />
+    <Compile Include="0xx\003\Problem003Tests.cs" />
     <Compile Include="0xx\010\Problem010Tests.cs" />
     <Compile Include="0xx\009\Problem009Tests.cs" />
     <Compile Include="0xx\008\Problem008Tests.cs" />
@@ -115,9 +116,7 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="0xx\003\" />
-  </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
