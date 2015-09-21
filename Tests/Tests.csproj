@@ -63,6 +63,7 @@
     <Compile Include="0xx\006\Problem006Tests.cs" />
     <Compile Include="0xx\005\Problem005Tests.cs" />
     <Compile Include="0xx\004\Problem004Tests.cs" />
+    <Compile Include="0xx\015\Problem015Tests.cs" />
     <Compile Include="0xx\017\Problem017Tests.cs" />
     <Compile Include="HelperMethods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -107,6 +108,10 @@
     <ProjectReference Include="..\Problem010\Problem010.csproj">
       <Project>{9c809d26-fae3-48bd-b8cb-c0afbfbe04db}</Project>
       <Name>Problem010</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Problem015\Problem015.csproj">
+      <Project>{e16c9ffc-aec7-4118-90d0-de7d6b3c1a97}</Project>
+      <Name>Problem015</Name>
     </ProjectReference>
     <ProjectReference Include="..\Problem017\Problem017.csproj">
       <Project>{c03cdb77-d648-4447-9c35-d6252acce029}</Project>
