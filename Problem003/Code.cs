@@ -5,7 +5,7 @@ namespace Problem003
 {
     public class Code
     {
-        public static IEnumerable<long> PrimeFactors(long num)
+        public static long BiggestPrimeFactor(long num)
         {
             var result = new List<long>();
             var remainder = num;
@@ -25,7 +25,7 @@ namespace Problem003
                 }
             }
 
-            return result.Distinct().OrderBy(x => x);
+            return result.Distinct().OrderBy(x => x).Last();
         }
     }
 }
